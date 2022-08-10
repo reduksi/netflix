@@ -1,0 +1,28 @@
+.control {
+  position: absolute;
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 50px;
+}
+.control-right {
+  right: 0px;
+  justify-content: right;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(19, 19, 19)
+  );
+}
+.control-left {
+  left: 0;
+  justify-content: left;
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 0, 0, 0),
+    rgb(19, 19, 19)
+  );
+}
