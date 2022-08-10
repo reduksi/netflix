@@ -62,3 +62,12 @@
   pointer-events: none;
   user-select: none;
 }
+
+@media only screen and (max-width: 800px) {
+  .app > .container {
+    padding: 10% 3%;
+  }
+  .container > .sub-warning {
+    padding: 0.5em;
+  }
+}
