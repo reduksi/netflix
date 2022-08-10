@@ -6,6 +6,8 @@ import { getGenres, getMovies } from "./api/movies";
 import "./App.css";
 import { get } from "lodash";
 
+// notes : movie image is using key backdrop_path instead of poster_path because poster path is in potrait orientation
+
 function App() {
   const [movieByGenre, setMovieByGenre] = useState({});
 
